@@ -595,7 +595,7 @@ void function_pwd(char* cwdstr,int command)
 /* mimic screenfetch like logo functionality from ubuntu*/
 void screenfetch()
 {
-    char* welcomestr = "\n                           ./+o+-\n                  yyyyy- -yyyyyy+\n               ://+//////-yyyyyyo\n           .++ .:/++++++/-.+sss/`\n         .:++o:  /++++++++/:--:/-\n        o:+o+:++.`..```.-/oo+++++/\n       .:+o:+o/.          `+sssoo+/\n  .++/+:+oo+o:`             /sssooo.\n /+++//+:`oo+o               /::--:.\n \\+/+o+++`o++o               ++////.\n  .++.o+++oo+:`             /dddhhh.\n       .+.o+oo:.          `oddhhhh+\n        \\+.++o+o``-````.:ohdhhhhh+\n         `:o+++ `ohhhhhhhhyo++os:\n           .o:`.syhhhhhhh/.oo++o`\n               /osyyyyyyo++ooo+++/\n                   ````` +oo+++o\\:    CShell\n                          `oo++.    Made by Kaustubh Hiware\n\n";
+    char* welcomestr = "Welcome to the shell\n";
 
     printf("%s",welcomestr);
 }
@@ -605,7 +605,7 @@ void screenfetch()
 void about()
 {
     // Source - http://ascii.co.uk/art/seashell
-    char* descr = "           _.-''|''-._\n        .-'     |     `-.\n      .'\\       |       /`.\n    .'   \\      |      /   `.        Cshell\n    \\     \\     |     /     /        Made by @kaustubhhiware\n     `\\    \\    |    /    /'\n       `\\   \\   |   /   /'\n         `\\  \\  |  /  /'\n        _.-`\\ \\ | / /'-._ \n       {_____`\\\\|//'_____}\n               `-'\n\n";
+    char* descr = "Cshell made by Jogi Miglani(17123021), Rohit Jhanwar(17123011) and Shubham Kumar(17123013)\n";
 
     printf("%s",descr);
 }
